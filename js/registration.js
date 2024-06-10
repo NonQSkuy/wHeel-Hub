@@ -45,7 +45,7 @@ submitBtn.addEventListener('click', function() {
     }
     else {
         alert('Registration Success!');
-        window.location.href = "../Pages/home.html";
+        window.location.href = "../home.html";
     }
 });
 
