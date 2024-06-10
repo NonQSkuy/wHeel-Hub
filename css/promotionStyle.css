@@ -1,0 +1,255 @@
+section {
+    margin: 2rem auto;
+    max-width: 60%;
+    padding: 1rem 2rem;
+}
+
+.sub-title-promo {
+    text-align: center;
+    font-size: 23px;
+    color: darkslategrey;
+    margin-bottom: 30px;
+}
+.promo-container {
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+.promo-card {
+    display: inline-block;
+    padding: 1rem .5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    margin: 50px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    width: 200px;
+    height: 150px;
+    color: darkslategrey;
+
+}
+.promo-card .promo {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.promo-card .promo-desc {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-weight: bold; 
+}
+
+.car-container {
+    max-width: 100%;
+    padding: 4rem 2rem;
+}
+
+.car-card {
+    display: inline-block;
+    padding: 1rem .5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    margin: 20px 70px 20px ;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+
+}
+
+.car-card .car-name {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.car-card .car-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.car-card .discount-container {
+    display: flex;
+    align-items: center;
+}
+
+.car-card .car-discount {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: line-through;
+    margin-right: 5px;
+    margin-bottom: 7px;
+}
+
+.car-card .car-discount-rate {
+    color: red;
+    font-weight: bold;
+}
+.car-card .car-year{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.car-image {
+    width: 290px;
+    height: 180px;
+    box-shadow: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.car-image.mirai {
+    background-image: url("../Assets/promotion_banner/2023_mirai.jpeg")
+}
+
+.car-image.corola-hatchback {
+    background-image: url("../Assets/promotion_banner/2024_corola_hatchback.jpeg");
+}
+
+.car-image.corola-hybrid {
+    background-image: url("../Assets/promotion_banner/2024_corola_hybrid.jpeg");
+}
+
+.car-image.highlander-hybrid {
+    background-image: url("../Assets/promotion_banner/2024_highlander_hybrid.jpeg");
+}
+
+.car-image.sienna {
+    background-image: url("../Assets/promotion_banner/2024_sienna.jpeg");
+}
+
+
+.car-card:hover {
+    transform: scale(1.020);
+    -webkit-transform: scale(1.020);
+    -moz-transform: scale(1.020);
+    -ms-transform: scale(1.020);
+    -o-transform: scale(1.020);
+    cursor: pointer;
+}
+
+
+/* Breakpoints */
+@media screen and (width < 1610px) {
+    section {
+        max-width: 80%;
+    }
+}
+
+@media screen and (width < 1200px) {
+    section {
+        max-width: 70%;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .car-card {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .car-image {
+        width: 100%;
+    }
+}
+
+@media screen and (width < 1040px) {
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .car-card {
+        flex-grow: 1;
+    }
+
+    .car-image {
+        width: 100%;
+        background-size: cover;
+    }   
+
+}
+
+@media screen and (width < 900px) {
+    section {
+        max-width: 80%;
+    }
+
+    .sub-title-promo {
+        font-size: 2rem;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .car-card {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (width < 768px) {
+    section {
+        max-width: 90%;
+    }
+}
+
+@media screen and (width < 550px) {
+    section {
+        max-width: 100%;
+    }
+
+    .sub-title-promo {
+        font-size: 1.8rem;
+    }
+
+    .car-image {
+        height: 200px;
+    }   
+}
+
+@media screen and (width<500px) {
+
+    .sub-title-promo {
+        font-size: 1.45rem;
+    }
+
+    .car-card {
+        margin: 1rem 0 2rem;
+    }
+
+}
+.copyright{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
