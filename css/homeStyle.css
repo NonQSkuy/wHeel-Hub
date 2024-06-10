@@ -70,7 +70,7 @@ section {
 .image-slider .kiri,
 .image-slider .kanan {
     cursor: pointer;
-    background-image: url('../Assets/ui/down_down_arrow.png');
+    background-image: url(../Assets/ui/down_down_arrow.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
