@@ -134,21 +134,21 @@ section {
 }
 
 .activities-images.activities-one {
-    background-image: url(/Assets/about_us/car_engineer.jpeg);
+    background-image: url(../Assets/about_us/car_engineer.jpeg);
     background-size: 500px;
 }
 
 .activities-images.activities-two {
-    background-image: url(/Assets/about_us/car_engineer2.webp);
+    background-image: url(../Assets/about_us/car_engineer2.webp);
     background-size: 500px;
 }
 
 .activities-images.activities-three {
-    background-image: url(/Assets/about_us/people_discussing.jpeg); 
+    background-image: url(../Assets/about_us/people_discussing.jpeg); 
     background-size: 500px;
 }
 .activities-images.activities-four {
-    background-image: url(/Assets/about_us/car_interior.jpeg);
+    background-image: url(../Assets/about_us/car_interior.jpeg);
     background-size: 500px;
 }
 
