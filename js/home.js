@@ -105,7 +105,7 @@ const cardContainer = document.querySelector('.card-container');
 cardContainer.addEventListener('click', function(e){
     console.log(e.target);
     if(e.target.classList.contains('car-card') || e.target.classList.contains('car-image') || e.target.classList.contains('car-name')){
-        window.location.href = '../allCars.html'
+        window.location.href = './allCars.html'
     }
 });
 

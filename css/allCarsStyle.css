@@ -93,7 +93,7 @@
 }
 
 .car-image.rav4 {
-    background-image: url("../Assets/product_card/2024_rav4.jpeg");
+    background-image: url(../Assets/product_card/2024_RAV4.jpeg);
 }
 
 .car-image.venza {
@@ -101,7 +101,7 @@
 }
 
 .car-image.camry {
-    background-image: url("../Assets/product_card/2025_camry.jpeg");
+    background-image: url(../Assets/product_card/2025_Camry.jpeg);
 }
 
 .car-card .discount-container {
